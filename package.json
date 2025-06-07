@@ -8,7 +8,7 @@
   "homepage": "https://igor-kan.github.io/ledgerai",
   "scripts": {
     "dev": "vite",
-    "build": "mkdir dist && echo \"<h1>Hello from LedgerAI!</h1>\" > dist/index.html",
+    "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
