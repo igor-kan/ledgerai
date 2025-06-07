@@ -1,18 +1,24 @@
 {
   "name": "ledgerai",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A web application for ledger AI.",
+  "main": "index.js",
   "type": "module",
   "homepage": "https://igor-kan.github.io/ledgerai",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "mkdir dist && echo \"<h1>Hello from LedgerAI!</h1>\" > dist/index.html",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
